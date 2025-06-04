@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="logo2.png">
+    <title>Minha Padaria</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header com visibilidade de status e padrões -->
+    <header class="bg-warning shadow-sm">
+        <nav class="container navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand fw-bold" href="#">
+                <img src="logo2.png" alt="" style="height:40px; width:auto; margin-right:8px;">
+                Minha Padaria</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#doces"><i class="bi bi-cupcake"></i> Doces</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#salgados"><i class="bi bi-egg-fried"></i> Salgados</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#encomendas"><i class="bi bi-basket"></i> Encomendas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato"><i class="bi bi-envelope"></i> Contato</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#trabalho"><i class="bi bi-briefcase"></i> Trabalhe Conosco</a></li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-dark ms-2" href="#conta">
+                            <i class="bi bi-person-circle"></i> Conta
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Destaque com linguagem real e botão claro -->
+    <section class="py-5 text-center bg-light">
+        <div class="container">
+            <h1 class="display-5 fw-bold">Bem-vindo à Minha Padaria</h1>
+            <div class="row align-items-center mt-4">
+                <div class="col-md-6">
+                    <img src="img1.jpg" alt="Imagem da padaria" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-md-6">
+                    <p class="lead">Na Minha Padaria, a tradição e o sabor caminham juntos para levar até você os melhores produtos feitos com carinho.</p>
+                    <a href="#cardapio" class="btn btn-warning btn-lg mt-3">
+                        Ver Cardápio <i class="bi bi-arrow-down"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cardápio com consistência e linguagem real -->
+    <section id="cardapio" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5"><i class="bi bi-clipboard-heart"></i>Nosso Cardápio</h2>
+
+            <h3><i class="bi bi-cup-hot"></i>Lanches</h3>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="padaria02.png" class="card-img-top" alt="Lanche do Forno">
+                        <div class="card-body">
+                            <h5 class="card-title">Lanche do Forno</h5>
+                            <p class="card-text">Delicioso pão recheado com presunto e queijo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="pãodequeijo.jpg" class="card-img-top" alt="Pão de Queijo">
+                        <div class="card-body">
+                            <h5 class="card-title">Pão de Queijo</h5>
+                            <p class="card-text">Tradicional mineiro, quentinho e macio, perfeito para o café.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="crosaint.jpg" class="card-img-top" alt="Croissant">
+                        <div class="card-body">
+                            <h5 class="card-title">Croissant</h5>
+                            <p class="card-text">Massa folhada leve, recheado com queijo ou chocolate.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="cafeexpresso.jpg" class="card-img-top" alt="Café Expresso">
+                        <div class="card-body">
+                            <h5 class="card-title">Café Expresso</h5>
+                            <p class="card-text">Café forte e aromático, servido na medida certa.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="cappucciono.jpg" class="card-img-top" alt="Capuccino">
+                        <div class="card-body">
+                            <h5 class="card-title">Capuccino</h5>
+                            <p class="card-text">Mistura cremosa de café, leite e chocolate, polvilhado com canela.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <img src="classico.jpg" class="card-img-top" alt="Lanche do Forno">
+                            <h5 class="card-title">Lanche Clássico</h5>
+                            <p class="card-text">Pão francês com mortadela e queijo minas.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <img src="lanches-salgados.webp" class="card-img-top" alt="Lanche do Forno">
+                            <h5 class="card-title">Lanche Bacon & Queijo</h5>
+                            <p class="card-text">Crocante com muito queijo e bacon artesanal.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="mt-5"><i class="bi bi-restaurant"></i>Refeições</h3>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <img src="frango.jpg" class="card-img-top" alt="Lanche do Forno">
+                            <h5 class="card-title">Frango Assado com Batatas</h5>
+                            <p class="card-text">Receita caseira servida todos os domingos.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <img src="feijoada-nordestina-1.webp" class="card-img-top" alt="Feijoada">
+                            <h5 class="card-title">Feijoada</h5>
+                            <p class="card-text">Autêntica e saborosa, servida às quartas e sábados.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <img src="marmita.jpg" class="card-img-top" alt="Marmita Fit">
+                            <h5 class="card-title">Marmita Fit</h5>
+                            <p class="card-text">Comida leve com arroz integral, frango grelhado e legumes.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <img src="estrogonofe-de-carne-cremoso-800x800.webp" class="card-img-top" alt="Strogonoff de Carne">
+                            <h5 class="card-title">Strogonoff de Carne</h5>
+                            <p class="card-text">Clássico brasileiro com arroz branco e batata palha.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Prevenção de erro: botão desativado -->
+            <div class="text-center mt-5">
+                <button class="btn btn-secondary" disabled>Novos pratos em breve</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-light py-4 text-center mt-5">
+        <div class="container">
+            <p class="mb-1">&copy; 2025 Minha Padaria - Todos os direitos reservados.</p>
+            <p class="mb-0">Siga-nos nas redes sociais:
+                <a href="#" class="text-light ms-2"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-light ms-2"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="text-light ms-2"><i class="bi bi-whatsapp"></i></a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
